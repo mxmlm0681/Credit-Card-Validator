@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+.img-cards {
+    display: flex;
+}
+
+.img-card {
+    display: flex;
+    flex-direction: row;
+    align-self: baseline;
+    opacity: 0.4;
+    position: relative;;
+}
+
+.valid {
+    border-color: #008000;
+}
+
+#input {
+    border-width: 3px;
+}
+
+.invalid {
+    border-color: #ff0000;
+}
+
+#american {
+    display: flex;
+    background-image: url('../img/american_express.png');
+    background-position: center;
+    width: 32px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#club {
+    display: flex;
+    background-image: url('../img/club.png');
+    background-position: center;
+    width: 32px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#discover {
+    display: flex;
+    background-image: url('../img/discover.png');
+    background-position: center;
+    width: 32px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#jcb {
+    display: flex;
+    background-image: url('../img/jcb.png');
+    background-position: center;
+    width: 32px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#mastercard {
+    display: flex;
+    background-image: url('../img/mastercard.png');
+    background-position: center;
+    width: 32px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#mir {
+    display: flex;
+    background-image: url('../img/mir.png');
+    background-position: center;
+    width: 32px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#visa {
+    display: flex;
+    background-image: url('../img/visa.png');
+    background-position: center;
+    width: 32px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+
+
+
+
